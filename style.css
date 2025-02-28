@@ -1,0 +1,36 @@
+﻿Body { 
+    Font-family: Arial, sans-serif; 
+    Margin: 20px; 
+    Background-color: #f4f4f4; 
+} 
+ 
+H2 { 
+    Text-align: center;     Color: #333; 
+} 
+ 
+Table { 
+    Width: 100%; 
+    Border-collapse: collapse; 
+    Margin: 20px 0; 
+    Background: white; 
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+ 
+Th, td {     Padding: 12px; 
+    Text-align: left; 
+    Border-bottom: 1px solid #ddd; 
+} 
+ 
+Th { 
+    Background-color: #f4b400; 
+    Color: white;     Text-transform: uppercase; 
+} 
+ 
+Tr:nth-child(even) { 
+    Background-color: #f9f9f9; 
+} 
+ 
+Tr:hover {     Background-color: #f1f1f1; 
+    Transition: 0.3s; 
+} 
+ 
